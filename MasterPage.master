@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="Home.ascx" TagName="Home" TagPrefix="uc3" %>
+<%@ Register Src="Left.ascx" TagName="Left" TagPrefix="uc2" %>
+<%@ Register Src="UserLogin.ascx" TagName="UserLogin" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>网上购物系统</title>
+    <link href="style/css.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header w_980" style="left: 0px; top: 0px">
+            <asp:Image ID="Image1" runat="server" Height="115px" ImageUrl="~/images/Logo_1.png"
+                Width="976px" /></div>      
+        <div class="topmenu w_980" style="background:#4C98B9; text-align:center ">
+      <a href="Default.aspx">首页</a>|           
+       <a href="UserStReg.aspx">用户注册</a>|   
+         
+                        
+         
+                 
+                                      <a href="NewShangPinList.aspx">最新商品</a>|
+           <a href="HotShangPinList.aspx">热门商品</a>|
+                   
+            <a href="SearchGoods.aspx">商品搜索</a>|
+              
+                
+                 
+             
+                      
+                        
+            <a href="ly.aspx">留言板</a>|
+            
+                   <a href="NewsTypeList.aspx?TypeName=新闻公告">新闻公告</a>|
+      
+                  <a href="Shopping.aspx">购物车</a>|         
+             <a href="UserHome.aspx">用户中心</a>|  
+             
+         
+              
+        </div>
+        <div class="w_980">
+            <div class="w_260 fl">
+                    <div class="t_1"><div><a href="UserHome.aspx">用户中心</a></div></div>
+                    <div class="f_1 pa20 h26 mb10" style="font-size:14px;">
+                        <uc1:UserLogin ID="UserLogin1" runat="server" />
+                      
+                    </div>
+                <uc2:Left id="Left1" runat="server">
+                </uc2:Left></div>
+                     <div class="w_b710 fr" style="width: 689px">
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                         </asp:ContentPlaceHolder>
+                
+            </div>
+             
+        </div>
+        <div class="foot w_980">
+            <div class="footmenu">
+                
+               网上购物系统 版权所有  
+                <a href="Admin/Login.aspx"><span style="color: #ffffff">后台入口</span></a>
+            </div>
+            </div>
+    </form>
+</body>
+</html>
