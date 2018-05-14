@@ -51,6 +51,6 @@
     </tr>
     <tr>
         <td colspan="3" style="text-align: center">
-            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" CausesValidation="False">会员注册</asp:LinkButton></td>
+            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click" CausesValidation="False">未注册 点此注册</asp:LinkButton></td>
     </tr>
 </table>

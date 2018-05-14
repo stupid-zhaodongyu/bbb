@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Left.ascx.cs" Inherits="Left" %>
 
                       
-                                <div class="t_1"><div><a href="#">商品分类&gt;&gt;</a></div></div>
+                                <div class="t_1"><div><a href="#">商品分类</a></div></div>
                     <div class="f_2 pa15 mb10">
                         <ul class="list_2 list_ico_1">
                    

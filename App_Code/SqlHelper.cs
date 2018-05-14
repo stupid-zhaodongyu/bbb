@@ -11,7 +11,7 @@ using System.Data;
 /// </summary>
 public class SqlHelper
 {
-    public static readonly string connstring = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString; 
+    public static readonly string connstring = ConfigurationManager.ConnectionStrings["connstring"].ConnectionString; 
         private static Hashtable parmCache = Hashtable.Synchronized(new Hashtable());
         private SqlConnection con;
         private SqlCommand cmd;

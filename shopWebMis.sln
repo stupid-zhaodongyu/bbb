@@ -1,8 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "E:\...\shopWebMis\", ".", "{7F7414C6-F1F4-4061-B17C-83921E7772B4}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "shopWebMis", ".", "{C89C5B21-DC69-412A-B7A9-883E9CC88048}"
 	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
 		Debug.AspNetCompiler.VirtualPath = "/shopWebMis"
 		Debug.AspNetCompiler.PhysicalPath = "..\shopWebMis\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\shopWebMis\"
@@ -26,10 +29,13 @@ Global
 		Debug|.NET = Debug|.NET
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F7414C6-F1F4-4061-B17C-83921E7772B4}.Debug|.NET.ActiveCfg = Debug|.NET
-		{7F7414C6-F1F4-4061-B17C-83921E7772B4}.Debug|.NET.Build.0 = Debug|.NET
+		{C89C5B21-DC69-412A-B7A9-883E9CC88048}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{C89C5B21-DC69-412A-B7A9-883E9CC88048}.Debug|.NET.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD5C19A-5346-4272-AC47-384B94284D48}
 	EndGlobalSection
 EndGlobal
